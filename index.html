@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--config html-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site_curso</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.x.x/font/bootstrap-icons.css">
+    <script src="funcionalidades.js"></script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div id = "logo">
+            <img src="images/brasaocor.png" alt=""width = "300px" height="100px">
+        </div>
+        <nav class = "Topo">
+            <div class = "barra_pesquisa">
+                <button class = "bsearch">
+                    <i class="bi bi-search"></i>
+                </button>
+                <input type="text" class="search-bar" placeholder= "Pesquisar...">
+            </div>
+            <div class = "filtro">
+                <button class = "bfiltro"><a href="index.html"><i class="bi bi-funnel"></i>Filter</a></button>
+            </div>
+        </nav>
+        <div class = "botoes">   
+            <button class = "blogin"><a href="login.html">Sign in</a></button>
+            <button class = "blogin"><a href="login.html">Log in</a></button>
+            <i class="bi bi-person-circle"></i>
+        </div>
+        
+    </header>
+     <!--Tudo a baixo do header-->
+    <!--Imagem principa-->
+    <main>
+        <div class = "destaques">
+            <h1>Ciencia da computação</h1>
+            <img src="images/capa-ciencia-da-computacao.jpg" alt=""width = "700px" height="300px">
+        </div>
+    
+
+    <!--Cursos exatas-->
+    <section class = "sobre">
+        <h2>O que é a computação:</h2>
+        <div class="cursos imagemSobre" id="recomendado1">
+            A computação é o campo que estuda e aplica os princípios e processos envolvidos no processamento de informações. Ela envolve o uso de computadores e sistemas para realizar tarefas como  armazenar, processar e transmitir dados. A área abrange desde o design de hardware até o desenvolvimento de software e algoritmos. Além disso, inclui áreas como inteligência artificial, redes de computadores e segurança cibernética. A computação é essencial para inovação tecnológica e transformação digital em diversos setores da sociedade.
+        </div>
+        <div class="cursos imagemSobre" id="recomendado2">
+            <img src="images/tudo.jpg" alt="">
+        </div>
+        <h2>Objetivo do curso:</h2>
+        <div class="cursos imagemSobre" id="recomendado3">
+            O curso de Ciência da Computação forma profissionais capacitados para atuar no desenvolvimento de sistemas computacionais, programação e análise de algoritmos. Ele abrange áreas como inteligência artificial, redes de computadores, banco de dados, segurança e engenharia de software. O curso também envolve o estudo de fundamentos teóricos da computação e suas aplicações práticas. Ao final, o aluno é preparado para criar soluções tecnológicas e inovadoras em diversos setores.
+        </div>
+        <div class="cursos imagemSobre" id="recomendado3">
+            <img src="images/mandala_600x314-1.png" alt="">
+        </div>
+    </section>
+
+    <!--Cursos humanas-->
+    <h2>Diciplinas:</h2>
+    <article class = "materias">
+        <div onclick="navegar1()" class="cursos" id="favorito1">
+            <img src="https://picsum.photos/id/1/200/300" alt="">
+            <p>Algoritmo e estrutura de dados</p>
+        </div>
+        <div onclick="navegar2()" class="cursos" id="favorito2">
+            <img src="https://picsum.photos/id/1/200/300" alt="">
+            <p>Calculo</p>
+        </div>
+        <div onclick="navegar3()" class="cursos" id="favorito3">
+            <img src="https://picsum.photos/id/1/200/300" alt="">
+            <p>Introdução a computação</p>
+        </div>
+        <div class="cursos" id="favorito4">
+            <img src="https://picsum.photos/id/1/200/300" alt="">
+            <p>Materia... </p>
+        </div>
+        <div class="cursos" id="favorito5">
+            <img src="https://picsum.photos/id/1/200/300" alt="">
+            <p>Materia... </p>
+        </div>
+        <div class="cursos" id="favorito6">
+            <img src="https://picsum.photos/id/1/200/300" alt="">
+            <p>Materia... </p>
+        </div>
+    </article>
+</main>
+    <!--Direitos autorais-->
+    <footer class = "direitos_autorais">
+        <p>@Rafael_lacerda Livre uso do design</p>
+    </footer>
+    
+</body>
+</html>
