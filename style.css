@@ -140,6 +140,7 @@ div.cursos img{
     float: left;
     display: flex;
     margin-bottom: 60px;
+    cursor: pointer;
 }
 h2{
     margin-top: 80px;

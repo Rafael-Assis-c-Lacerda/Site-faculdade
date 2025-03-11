@@ -1,3 +1,6 @@
+function navegar0(){
+    window.location = "index.html";
+}
 function navegar1(){
     window.location = "algoritmo.html";
 }
